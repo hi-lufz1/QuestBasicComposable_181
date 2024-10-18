@@ -64,16 +64,20 @@ fun BasicCompose( modifier: Modifier = Modifier
               fontSize = 16.sp
               )
       )
-
-
       Image(painter = painterResource(id = R.drawable.umy ),
           contentDescription = "umy"
       )
-
       Text(
           text = "Nama",
           style = TextStyle(
               fontSize = 16.sp
+          )
+      )
+      Text(
+          text = "Latif Usmul Fauzi",
+          style = TextStyle(
+              fontSize = 32.sp,
+              fontWeight = FontWeight.Bold,
           )
       )
       Text(
