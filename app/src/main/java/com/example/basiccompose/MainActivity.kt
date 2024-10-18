@@ -48,6 +48,19 @@ fun BasicCompose( modifier: Modifier = Modifier
       modifier = Modifier.fillMaxSize()
   ) {
       Text(
+          text = "LOGIN",
+          style = TextStyle(
+              fontSize = 50.sp,
+              fontWeight = FontWeight.Bold,
+
+          )
+      )
+
+      Image(painter = painterResource(id = R.drawable.umy ),
+          contentDescription = "umy" )
+
+
+      Text(
           text = "Indonesia",
           style = TextStyle(
           fontSize = 50.sp,
@@ -56,8 +69,6 @@ fun BasicCompose( modifier: Modifier = Modifier
           )
       )
 
-      Image(painter = painterResource(id = R.drawable.umy ),
-      contentDescription = "umy" )
   }
 
 }
