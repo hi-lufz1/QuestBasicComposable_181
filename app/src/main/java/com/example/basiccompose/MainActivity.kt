@@ -96,13 +96,3 @@ fun BasicCompose( modifier: Modifier = Modifier
   }
 
 }
-
-
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    BasicComposeTheme {
-        Greeting("Android")
-    }
-}
