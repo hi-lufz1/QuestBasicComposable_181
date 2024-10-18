@@ -61,8 +61,9 @@ fun BasicCompose( modifier: Modifier = Modifier
       Text(
           text = "Ini adalah halaman login",
           style = TextStyle(
-              fontSize = 16.sp
-              )
+              fontSize = 16.sp,
+              ),
+          modifier = Modifier.padding(bottom = 16.dp)
       )
       Image(painter = painterResource(id = R.drawable.umy ),
           contentDescription = "umy"
