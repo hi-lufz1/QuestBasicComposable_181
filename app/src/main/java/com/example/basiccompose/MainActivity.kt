@@ -70,7 +70,12 @@ fun BasicCompose( modifier: Modifier = Modifier
           contentDescription = "umy"
       )
 
-
+      Text(
+          text = "Nama",
+          style = TextStyle(
+              fontSize = 16.sp
+          )
+      )
       Text(
           text = "20220140181",
           style = TextStyle(
