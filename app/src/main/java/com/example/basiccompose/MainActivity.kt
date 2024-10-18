@@ -88,7 +88,9 @@ fun BasicCompose( modifier: Modifier = Modifier
               color = Color.Blue
           )
       )
-
+      Image(painter = painterResource(id = R.drawable.img ),
+          contentDescription = "foto"
+      )
   }
 
 }
