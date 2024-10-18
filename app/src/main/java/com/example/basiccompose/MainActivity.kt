@@ -66,7 +66,7 @@ fun BasicCompose( modifier: Modifier = Modifier
       Text(
           text = "Ini adalah halaman login",
           style = TextStyle(
-              fontSize = 16.sp,
+              fontSize = 20.sp,
               ),
           modifier = Modifier.padding(bottom = 16.dp)
       )
@@ -76,7 +76,7 @@ fun BasicCompose( modifier: Modifier = Modifier
       Text(
           text = "Nama",
           style = TextStyle(
-              fontSize = 16.sp
+              fontSize = 20.sp
           )
       )
       Text(
