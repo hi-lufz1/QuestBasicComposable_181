@@ -56,7 +56,7 @@ fun BasicCompose( modifier: Modifier = Modifier
           )
       )
 
-      Image(painter = painterResource(id = R.drawable.download ),
+      Image(painter = painterResource(id = R.drawable.umy ),
       contentDescription = "umy" )
   }
 
