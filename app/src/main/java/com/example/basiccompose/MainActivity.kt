@@ -57,7 +57,7 @@ fun BasicCompose( modifier: Modifier = Modifier
       )
 
       Image(painter = painterResource(id = R.drawable.download ),
-      contentDescription = null ) // atau " "
+      contentDescription = "umy" )
   }
 
 }
