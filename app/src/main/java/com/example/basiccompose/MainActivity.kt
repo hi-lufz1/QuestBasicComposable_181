@@ -52,12 +52,19 @@ fun BasicCompose( modifier: Modifier = Modifier
           style = TextStyle(
               fontSize = 50.sp,
               fontWeight = FontWeight.Bold,
-
           )
       )
+      Text(
+          text = "Ini adalah halaman login",
+          style = TextStyle(
+              fontSize = 16.sp
+              )
+      )
+
 
       Image(painter = painterResource(id = R.drawable.umy ),
-          contentDescription = "umy" )
+          contentDescription = "umy"
+      )
 
 
       Text(
