@@ -89,7 +89,9 @@ fun BasicCompose( modifier: Modifier = Modifier
           )
       )
       Image(painter = painterResource(id = R.drawable.img ),
-          contentDescription = "foto"
+          contentDescription = "foto",
+          modifier = Modifier
+              .fillMaxSize()
       )
   }
 
